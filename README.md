@@ -1,19 +1,6 @@
-## Hi there 👋
-
-<!--
-**ICRA2026-workshop-copilot/ICRA2026-workshop-copilot** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img src="image.png" alt="Workshop Banner" width="100%"/>
+</p>
 
 # Robot Copilots: Human‑in‑the‑Loop Systems for Scalable Embodied AI
 
@@ -35,22 +22,21 @@ Here are some ideas to get you started:
 
 ## Overview
 
-**Robot Copilots** aim to make robots *know when to ask for help* and *scale human supervision* from **1:1 teleoperation** to **1:N fleet oversight**. This workshop brings together researchers and practitioners working on **human‑in‑the‑loop systems** across manipulation, mobile manipulation, and humanoids—from **teleoperation interfaces** (VR/AR/haptics/exoskeletons) and **copilot triggering** (uncertainty, anomaly/OOD detection, safety monitors) to **data pipelines** (rewind‑and‑refine, preference feedback, active learning) and **large VLA/diffusion policies** for embodied AI.
+**Robot Copilots** aim to combine abilities of robots and teleoperators, progressly collaborate with humans more effectively and extending human oversight from direct teleoperation to flexible, scalable supervision across multiple robots and tasks. This workshop brings together researchers and practitioners exploring **human‑in‑the‑loop systems** spanning manipulation, mobile platforms, and humanoids—from **teleoperation and shared control interfaces** (VR/AR, haptics, exoskeletons) and **copilot triggering mechanisms** (uncertainty estimation, anomaly/OOD detection, runtime safety monitors) to **learning frameworks** (preference feedback, corrective demonstrations, RLHF, IL/RL) and the integration of **large VLA and diffusion/flow‑based policies** for embodied AI.
 
 Our goal is to articulate **principled copilot architectures** and share **practical lessons** for building *reliable, scalable* robot systems in the open world.
 
 ---
 
 ## Topics (include, but not limited to)
-- Copilot system design for **teleoperation & supervision at scale** (1→N)
-- **Triggering intervention**: uncertainty, OOD/error detection, runtime monitors
-- **Rewind‑and‑refine**, corrective demonstrations, preference learning, RLHF/DPO
+- Copilot system design for **teleoperation, shared control, and scalable supervision** (1→N)
+- **Triggering intervention**: uncertainty estimation, OOD/error detection, and runtime safety monitors
+- **Human feedback and guidance**: corrective demonstrations, preference learning, RLHF, IL/RL
 - Human‑robot interfaces: **VR/AR**, haptics, exoskeletons, handheld/UMI controllers
-- **Low‑latency comms** & middleware (ROS 2, WebRTC, Zenoh) for remote operation
-- Data engines: logging, synchronization, **dataset curation & selection** (active/submodular)
-- Policy learning: **VLA**, diffusion/flow‑matching policies, residual & hybrid control
-- **Fleet learning**: scheduling, safety guarding, task routing, evaluation at scale
-- Applications: household/service, industrial/co‑bots, dexterous and humanoid skills
+- **Learning‑centric data engines**: logging, synchronization, and **dataset curation & selection** (active/submodular)
+- Policy learning: **VLA**, diffusion/flow‑matching policies, residual and hybrid control
+- **Fleet‑level learning and supervision**: scheduling, safety guarding, task routing, evaluation at scale
+- Applications: household/service robotics, industrial co‑bots, dexterous manipulation, and humanoid skills
 
 ---
 
@@ -78,7 +64,7 @@ We plan to invite a diverse slate across academia, industry, and open‑source c
 ## Organizers (TBA)
 If you are interested in co‑organizing or serving as a PC member, please reach out (see **Contact** below).
 
-- Wenhao Wang (UPenn / AgiBot) — **Primary Contact**
+- Yongjian Shen (AgiBot) — **Primary Contact**
 - [More TBA]
 
 ---
@@ -111,32 +97,3 @@ We welcome **non‑archival extended abstracts** presenting early results, posit
 
 **Submission site**: TBA (OpenReview or CMT).  
 **Contact for submissions**: see below.
-
----
-
-## Code of Conduct & Inclusion
-This workshop adheres to the **IEEE RAS Code of Conduct** and the ICRA W/T guidelines. We actively encourage participation from researchers at all career stages and will prioritize **diversity and inclusion** in invited talks and the program committee.
-
----
-
-## Contact
-- Email: **icra2026.copilot.workshop [at] gmail.com** (placeholder)  
-- Issues & questions: please open a **GitHub Issue** in this repo
-
----
-
-## How to Cite (placeholder)
-If you reference this workshop website:
-```
-@misc{icra2026_copilot_workshop,
-  title  = {Robot Copilots: Human-in-the-Loop Systems for Scalable Embodied AI},
-  year   = {2026},
-  howpublished = {ICRA 2026 Workshop Website},
-  url    = {https://<your-username>.github.io/ICRA2026-workshop-copilot}
-}
-```
-
----
-
-### Notes for GitHub Pages
-If you use **GitHub Pages** (Settings → Pages → Build from main branch / root), this `README.md` will render as the landing page. You can later switch to `index.md` or a `docs/` folder with a theme as the site grows.
